@@ -1,13 +1,16 @@
 Proceso Servidor 
-	Proceso Crear socket
-	Proceso Abrir_canal_de_comunicacion
-	Proceso Escuchar_Conexion
+	Crear socket
+	Abrir_canal_de_comunicacion
+	Escuchar_Conexion_Balanceador
+	
+	Si peticion=carga Entonces
+		enviar_datos_carga
+	Sino
 		Repetir
-			Proceso recibir solicitudes_servidor
-				Proceso Conectar_con_servidor
-				Repetir
-					Proceso enviar datos
-					Proceso recibir datos
-				Hasta Que cerrar conexion											
-			Proceso Cerrar_canal_de_comunicacion
+			Recibir solicitudes_balanceador
+			Procesar_solicitud_balanceador
+			enviar_datos
+		Hasta Que cerrar conexion											
+	Fin Si
+		
 FinProceso
