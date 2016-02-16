@@ -3,7 +3,7 @@
 * To change this template file, choose Tools | Templates
 * and open the template in the editor.
 */
-package balanceador;
+
 
 /**
  *
@@ -20,9 +20,9 @@ public class ServHiloBalanc extends Thread
     private Socket socket;
     //private int idSessio;
     
-    static String hostName = "localhost";
-    static int portNumberBank   = 6666;
-    static int portNumberBank2   = 6667;
+    static String hostName = "162.243.226.113";
+    static int portNumberBank   = 4444;
+    static int portNumberBank2   = 4444;
     
     PrintWriter    outC;
     BufferedReader inC;

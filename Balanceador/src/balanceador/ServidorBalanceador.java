@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package balanceador;
+
 
 /**
  *
@@ -17,7 +17,7 @@ import java.util.logging.*;
 public class ServidorBalanceador
 {
     static String hostName = "localhost";
-    static    int portNumberClient = 55666;
+    static    int portNumberClient = 8888;
 
     public static void main(String args[]) throws IOException
     {
@@ -34,7 +34,7 @@ public class ServidorBalanceador
             while (true)
             {
                 socketCliente = serverSocket.accept();
-                System.out.println("Nueva conexión entrante: "+socketCliente);
+                System.out.println("Nueva conexion entrante: "+socketCliente);
                 ((ServHiloBalanc) new ServHiloBalanc(socketCliente)).start();
                 
                 System.out.println("Termine: ");
