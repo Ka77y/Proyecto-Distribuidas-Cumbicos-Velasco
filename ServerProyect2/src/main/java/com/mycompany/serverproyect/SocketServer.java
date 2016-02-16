@@ -17,7 +17,7 @@ import java.util.logging.Logger;
  */
 public class SocketServer {
     
-    int portNumber = 6666;
+    int portNumber = 6667;
     ServerSocket serverSocket;
     
     
