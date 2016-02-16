@@ -17,7 +17,7 @@ public class app {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        SocketServer socketsito = new SocketServer(6666);
+        SocketServer socketsito = new SocketServer(4444);
         socketsito.atendercliente();
     }
     

@@ -1,0 +1,13 @@
+/root/Proyecto-Distribuidas-Cumbicos-Velasco/ServerProyect/src/main/java/entities/TipoTransaccion.java
+/root/Proyecto-Distribuidas-Cumbicos-Velasco/ServerProyect/src/main/java/com/mycompany/serverproyect/SocketServer.java
+/root/Proyecto-Distribuidas-Cumbicos-Velasco/ServerProyect/src/main/java/com/mycompany/serverproyect/exceptions/NonexistentEntityException.java
+/root/Proyecto-Distribuidas-Cumbicos-Velasco/ServerProyect/src/main/java/com/mycompany/serverproyect/ClienteJpaController.java
+/root/Proyecto-Distribuidas-Cumbicos-Velasco/ServerProyect/src/main/java/com/mycompany/serverproyect/TransaccionJpaController.java
+/root/Proyecto-Distribuidas-Cumbicos-Velasco/ServerProyect/src/main/java/com/mycompany/serverproyect/Sonda.java
+/root/Proyecto-Distribuidas-Cumbicos-Velasco/ServerProyect/src/main/java/com/mycompany/serverproyect/exceptions/PreexistingEntityException.java
+/root/Proyecto-Distribuidas-Cumbicos-Velasco/ServerProyect/src/main/java/entities/Transaccion.java
+/root/Proyecto-Distribuidas-Cumbicos-Velasco/ServerProyect/src/main/java/com/mycompany/serverproyect/exceptions/IllegalOrphanException.java
+/root/Proyecto-Distribuidas-Cumbicos-Velasco/ServerProyect/src/main/java/com/mycompany/serverproyect/ServerThread.java
+/root/Proyecto-Distribuidas-Cumbicos-Velasco/ServerProyect/src/main/java/com/mycompany/serverproyect/app.java
+/root/Proyecto-Distribuidas-Cumbicos-Velasco/ServerProyect/src/main/java/com/mycompany/serverproyect/TipoTransaccionJpaController.java
+/root/Proyecto-Distribuidas-Cumbicos-Velasco/ServerProyect/src/main/java/entities/Cliente.java

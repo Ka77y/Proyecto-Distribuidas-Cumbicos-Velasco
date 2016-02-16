@@ -1,0 +1,16 @@
+entities/TipoTransaccion_.class
+com/mycompany/serverproyect/ClienteJpaController.class
+com/mycompany/serverproyect/exceptions/IllegalOrphanException.class
+com/mycompany/serverproyect/ServerThread.class
+entities/Cliente_.class
+com/mycompany/serverproyect/TipoTransaccionJpaController.class
+entities/Cliente.class
+entities/Transaccion_.class
+com/mycompany/serverproyect/SocketServer.class
+com/mycompany/serverproyect/exceptions/NonexistentEntityException.class
+com/mycompany/serverproyect/TransaccionJpaController.class
+entities/TipoTransaccion.class
+com/mycompany/serverproyect/Sonda.class
+entities/Transaccion.class
+com/mycompany/serverproyect/exceptions/PreexistingEntityException.class
+com/mycompany/serverproyect/app.class
