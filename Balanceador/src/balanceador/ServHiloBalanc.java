@@ -35,7 +35,9 @@ public class ServHiloBalanc extends Thread
         try {
             outC  = new PrintWriter( socketHilo.getOutputStream(), true);
             inC   = new BufferedReader( new InputStreamReader(socketHilo.getInputStream()));
-        }
+	        
+	System.out.println("XdfgfdXXXXXXXdsfdX");
+	}
         catch (IOException ex) {
             Logger.getLogger(ServHiloBalanc.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -78,7 +80,7 @@ public class ServHiloBalanc extends Thread
         String mensajeServOne="",mensajeServTwo="";
         
         try {
-            
+            System.out.println("XXXXXXXXdsfdX");
             Socket socketServidorOne = new Socket(hostName, portNumberBank);
             System.out.println("XXXXXXXXXXXXXXXXXX");
             Socket socketServidorTwo = new Socket(hostName, portNumberBank2);
