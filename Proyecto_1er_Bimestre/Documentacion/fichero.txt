@@ -1,0 +1,5 @@
+             total       usado       libre     compart.    búffers     almac.
+Mem:       8082068    2973680    5108388     372896     111512    1275124
+-/+ buffers/cache:    1587044    6495024
+Intercambio:    8292348          0    8292348
+ 14:05:59 up  2:40,  3 users,  load average: 0,40, 0,33, 0,40
